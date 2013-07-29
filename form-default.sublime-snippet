@@ -1,0 +1,22 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<form>
+  <fieldset>
+    ${1:<legend>Legend</legend>}
+    ${2:<label>Label name</label>}
+    <input type="text" placeholder="${3:placeholder komt hier}">
+    ${4:<span class="help-block">helperblock</span>}
+    <label class="checkbox">
+      ${5:<input type="checkbox"> Check me out}
+    </label>
+    <button type="submit" class="btn">Submit</button>
+  </fieldset>
+</form>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tbform</tabTrigger>
+  <description>Default Form snippet</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>
